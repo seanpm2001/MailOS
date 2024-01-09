@@ -28,6 +28,30 @@
 *.hta linguist-detectable=true
 *.hta linguist-documentation=false
 *.hta linguist-language=HTML
+# C source file
+*.c linguist-detectable=true
+*.c linguist-documentation=false
+*.c linguist-language=C
+# C header source file
+*.h linguist-detectable=true
+*.h linguist-documentation=false
+*.h linguist-language=C
+# Rust source file
+*.rs linguist-detectable=true
+*.rs linguist-documentation=false
+*.rs linguist-language=C
+# D source source file
+*.d linguist-detectable=true
+*.d linguist-documentation=false
+*.d linguist-language=D
+# PHP source source file
+*.php linguist-detectable=true
+*.php linguist-documentation=false
+*.php linguist-language=PHP
+# CSS (Cascade Styling Sheets) stylesheet file
+*.css linguist-detectable=true
+*.css linguist-documentation=false
+*.css linguist-language=CSS
 # CSS (Cascade Styling Sheets) stylesheet file
 *.css linguist-detectable=true
 *.css linguist-documentation=false
@@ -161,10 +185,13 @@
 *.gif linguist-detectable=false
 *.gif linguist-documentation=false
 *.gif linguist-language=GIF
+
 # End of linguist script
 
 # File info
-# File type: gitattributes file (.gitattributes)
-# File version: 4 (2022, Tuesday, June 28th at 2:32 pm PST)
-# Line count (including blank lines and compiler line): 171
+
+# File type: gitattributes file (*.gitattributes)
+# File version: 5 (2024, Monday, January 8th at 10:14 pm PST)
+# Line count (including blank lines and compiler line): 198
+
 # End of script
